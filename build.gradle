@@ -26,16 +26,32 @@ task sourcesJar(type: Jar) {
 }
 
 publishing {
+    repositories {
+        maven { url = 'https://repo.bristermitten.me/maven-public/'}
+    }
+
     publications {
         maven(MavenPublication) {
-            groupId = 'me.untouchedOdin0.privatemines'
-            artifactId = 'PrivateMinesAPI'
-            version = "1.0"
-            artifact sourcesJar
+            groupId = 'me.untouchedodin0.privatemines'
+            artifactId = 'privateminesapi'
+            version = '1.1'
+
             from components.java
         }
     }
 }
+
+//publishing {
+//    publications {
+//        maven(MavenPublication) {
+//            groupId = 'me.untouchedOdin0.privatemines'
+//            artifactId = 'PrivateMinesAPI'
+//            version = "1.0"
+//            artifact sourcesJar
+//            from components.java
+//        }
+//    }
+//}
 
 test {
     useJUnitPlatform()
