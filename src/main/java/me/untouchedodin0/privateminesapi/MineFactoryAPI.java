@@ -16,10 +16,24 @@ public class MineFactoryAPI {
         return mineFactory;
     }
 
+    /**
+     *
+     * @param player    The player receiving the mine
+     * @param location  The location to paste the mine
+     * @param mineType  The mine type of which the mine should inherit from
+     * @param paste     Should we paste the schematic?
+     */
     public void createMine(Player player, Location location, MineType mineType, boolean paste) {
         mineFactory.create(player, location, mineType, paste);
     }
 
+    /**
+     *
+     * @param uuid      The uuid of the player receiving the mine
+     * @param location  The location to paste the mine
+     * @param mineType  The mine type of which the mine should inherit from
+     * @param paste     Should we paste the schematic?
+     */
     public void createMine(UUID uuid, Location location, MineType mineType, boolean paste) {
         mineFactory.create(Bukkit.getOfflinePlayer(uuid).getPlayer(), location, mineType, paste);
     }
