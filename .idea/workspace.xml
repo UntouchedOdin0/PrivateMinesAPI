@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08fd808d-ddeb-4703-a58b-835bdbd33ea2" name="Changes" comment="Jitpack fix?">
+    <list default="true" id="08fd808d-ddeb-4703-a58b-835bdbd33ea2" name="Changes" comment="Latest Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/untouchedodin0/privateminesapi/MineFactoryAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/untouchedodin0/privateminesapi/MineFactoryAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/untouchedodin0/privateminesapi/MineTypeManagerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/untouchedodin0/privateminesapi/MineTypeManagerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jitpack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4176" />
+    <option name="totalTimeSeconds" value="4435" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666803622769</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Latest Changes">
+      <created>1674165226176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674165226176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Jitpack fix?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jitpack fix?" />
+    <MESSAGE value="Latest Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Latest Changes" />
   </component>
 </project>
