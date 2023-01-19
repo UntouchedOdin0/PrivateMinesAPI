@@ -32,12 +32,4 @@ public class PrivateMinesAPI {
     public static MineTypeManager getMineTypeManager() {
         return mineTypeManager;
     }
-
-    public static PregenStorage getPregenStorage() {
-        return pregenStorage;
-    }
-
-    public static PregenFactory getPregenFactory() {
-        return pregenFactory;
-    }
 }

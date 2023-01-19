@@ -17,7 +17,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 
     compileOnly 'org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT'
-    compileOnly files('libs/PrivateMines-4.1.8-DEV-all.jar')
+    compileOnly files('libs/PrivateMines-5.3-DEV-all.jar')
 }
 
 task sourcesJar(type: Jar) {

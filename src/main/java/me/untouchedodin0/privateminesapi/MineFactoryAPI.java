@@ -16,12 +16,12 @@ public class MineFactoryAPI {
         return mineFactory;
     }
 
-    public void createMine(Player player, Location location, MineType mineType) {
-        mineFactory.create(player, location, mineType);
+    public void createMine(Player player, Location location, MineType mineType, boolean paste) {
+        mineFactory.create(player, location, mineType, paste);
     }
 
-    public void createMine(UUID uuid, Location location, MineType mineType) {
-        mineFactory.create(Bukkit.getOfflinePlayer(uuid).getPlayer(), location, mineType);
+    public void createMine(UUID uuid, Location location, MineType mineType, boolean paste) {
+        mineFactory.create(Bukkit.getOfflinePlayer(uuid).getPlayer(), location, mineType, paste);
     }
 }
 
